@@ -1,8 +1,545 @@
+<?xml version="1.0" ?>
 <Languages xmlns="http://knx.org/xml/project/20">
   <Language Identifier="en-US">
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_CH-ROUTE-Routing">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_CH-ROUTE-Routing">
+        <Translation AttributeName="Name" Text="IP Router"/>
+        <Translation AttributeName="Text" Text="IP Router"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_M-1">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_M-1">
+        <Translation AttributeName="Text" Text="Manufacturer ID incompatible!"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_M-2">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_M-2">
+        <Translation AttributeName="Text" Text="Hardware type or firmware version incompatible!"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9900002">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9900002">
+        <Translation AttributeName="Text" Text="Acknowledgement (ACK) of physically addressed telegrams"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9900003">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9900003">
+        <Translation AttributeName="Text" Text="Acknowledgement (ACK) of group telegrams"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9900004">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9900004">
+        <Translation AttributeName="Text" Text="Broadcast telegrams"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9900005">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9900005">
+        <Translation AttributeName="Text" Text="Physically addressed telegrams"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9900006">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9900006">
+        <Translation AttributeName="Text" Text="Group telegrams (main group 14 – 31)"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9900007">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9900007">
+        <Translation AttributeName="Text" Text="Group telegrams (main group 0 – 13)"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9900008">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9900008">
+        <Translation AttributeName="Text" Text="Repeat broadcast telegrams"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9900009">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9900009">
+        <Translation AttributeName="Text" Text="Broadcast telegrams (IP → KNX)"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9900010">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9900010">
+        <Translation AttributeName="Text" Text="Repeat physically addressed telegrams"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9900011">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9900011">
+        <Translation AttributeName="Text" Text="Physically addressed telegrams (IP → KNX)"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9900012">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9900012">
+        <Translation AttributeName="Text" Text="Repeat group telegrams"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9900013">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9900013">
+        <Translation AttributeName="Text" Text="Group telegrams (main group 14 – 31)"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9900014">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9900014">
+        <Translation AttributeName="Text" Text="Group telegrams (main group 0 – 13)"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9901001">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9901001">
+        <Translation AttributeName="Text" Text="Reserve tunnel 1"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9901002">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9901002">
+        <Translation AttributeName="Text" Text="IP address for tunnel 1"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9901003">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9901003">
+        <Translation AttributeName="Text" Text="Behavior when tunnel is occupied"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9902001">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9902001">
+        <Translation AttributeName="Text" Text="Reserve tunnel 2"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9902002">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9902002">
+        <Translation AttributeName="Text" Text="IP address for tunnel 2"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9902003">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9902003">
+        <Translation AttributeName="Text" Text="Behavior when tunnel is occupied"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9903001">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9903001">
+        <Translation AttributeName="Text" Text="Reserve tunnel 3"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9903002">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9903002">
+        <Translation AttributeName="Text" Text="IP address for tunnel 3"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9903003">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9903003">
+        <Translation AttributeName="Text" Text="Behavior when tunnel is occupied"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9904001">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9904001">
+        <Translation AttributeName="Text" Text="Reserve tunnel 4"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9904002">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9904002">
+        <Translation AttributeName="Text" Text="IP address for tunnel 4"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9904003">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9904003">
+        <Translation AttributeName="Text" Text="Behavior when tunnel is occupied"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9905001">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9905001">
+        <Translation AttributeName="Text" Text="Reserve tunnel 5"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9905002">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9905002">
+        <Translation AttributeName="Text" Text="IP address for tunnel 5"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9905003">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9905003">
+        <Translation AttributeName="Text" Text="Behavior when tunnel is occupied"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9906001">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9906001">
+        <Translation AttributeName="Text" Text="Reserve tunnel 6"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9906002">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9906002">
+        <Translation AttributeName="Text" Text="IP address for tunnel 6"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9906003">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9906003">
+        <Translation AttributeName="Text" Text="Behavior when tunnel is occupied"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9907001">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9907001">
+        <Translation AttributeName="Text" Text="Reserve tunnel 7"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9907002">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9907002">
+        <Translation AttributeName="Text" Text="IP address for tunnel 7"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9907003">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9907003">
+        <Translation AttributeName="Text" Text="Behavior when tunnel is occupied"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9908001">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9908001">
+        <Translation AttributeName="Text" Text="Reserve tunnel 8"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9908002">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9908002">
+        <Translation AttributeName="Text" Text="IP address for tunnel 8"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9908003">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9908003">
+        <Translation AttributeName="Text" Text="Behavior when tunnel is occupied"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9909001">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9909001">
+        <Translation AttributeName="Text" Text="Reserve tunnel 9"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9909002">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9909002">
+        <Translation AttributeName="Text" Text="IP address for tunnel 9"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9909003">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9909003">
+        <Translation AttributeName="Text" Text="Behavior when tunnel is occupied"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9910001">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9910001">
+        <Translation AttributeName="Text" Text="Reserve tunnel 10"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9910002">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9910002">
+        <Translation AttributeName="Text" Text="IP address for tunnel 10"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9910003">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9910003">
+        <Translation AttributeName="Text" Text="Behavior when tunnel is occupied"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9911001">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9911001">
+        <Translation AttributeName="Text" Text="Reserve tunnel 11"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9911002">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9911002">
+        <Translation AttributeName="Text" Text="IP address for tunnel 11"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9911003">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9911003">
+        <Translation AttributeName="Text" Text="Behavior when tunnel is occupied"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9912001">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9912001">
+        <Translation AttributeName="Text" Text="Reserve tunnel 12"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9912002">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9912002">
+        <Translation AttributeName="Text" Text="IP address for tunnel 12"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9912003">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9912003">
+        <Translation AttributeName="Text" Text="Behavior when tunnel is occupied"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9913001">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9913001">
+        <Translation AttributeName="Text" Text="Reserve tunnel 13"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9913002">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9913002">
+        <Translation AttributeName="Text" Text="IP address for tunnel 13"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9913003">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9913003">
+        <Translation AttributeName="Text" Text="Behavior when tunnel is occupied"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9914001">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9914001">
+        <Translation AttributeName="Text" Text="Reserve tunnel 14"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9914002">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9914002">
+        <Translation AttributeName="Text" Text="IP address for tunnel 14"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9914003">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9914003">
+        <Translation AttributeName="Text" Text="Behavior when tunnel is occupied"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9915001">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9915001">
+        <Translation AttributeName="Text" Text="Reserve tunnel 15"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9915002">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9915002">
+        <Translation AttributeName="Text" Text="IP address for tunnel 15"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9915003">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9915003">
+        <Translation AttributeName="Text" Text="Behavior when tunnel is occupied"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9916001">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9916001">
+        <Translation AttributeName="Text" Text="Reserve tunnel 16"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9916002">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9916002">
+        <Translation AttributeName="Text" Text="IP address for tunnel 16"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_P-9916003">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_P-9916003">
+        <Translation AttributeName="Text" Text="Behavior when tunnel is occupied"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PB-11">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PB-11">
+        <Translation AttributeName="Text" Text="Routing KNX → IP"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PB-12">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PB-12">
+        <Translation AttributeName="Text" Text="Routing IP → KNX"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PB-13">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PB-13">
+        <Translation AttributeName="Text" Text="Tunnel connections"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PS-28">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PS-28">
+        <Translation AttributeName="Text" Text="Settings for routing telegrams from TP to IP"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PS-29">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PS-29">
+        <Translation AttributeName="Text" Text="Warning: Selecting &quot;always reject (NACK)&quot; allows programming only via IP"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PS-30">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PS-30">
+        <Translation AttributeName="Text" Text="Settings for routing telegrams from IP to TP"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PS-31">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PS-31">
+        <Translation AttributeName="Text" Text="Settings for reserved tunnel connections"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PS-32">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PS-32">
+        <Translation AttributeName="Text" Text="The tunnel physical addresses (PA) are configured via the ETS topology view"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PS-33">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PS-33">
+        <Translation AttributeName="Text" Text="Assignment"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PS-34">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PS-34">
+        <Translation AttributeName="Text" Text="IP address"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PS-35">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PS-35">
+        <Translation AttributeName="Text" Text="Behavior when tunnel is occupied"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PS-36">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PS-36">
+        <Translation AttributeName="Text" Text="Tunnel 1"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PS-37">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PS-37">
+        <Translation AttributeName="Text" Text="Tunnel 2"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PS-38">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PS-38">
+        <Translation AttributeName="Text" Text="Tunnel 3"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PS-39">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PS-39">
+        <Translation AttributeName="Text" Text="Tunnel 4"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PS-40">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PS-40">
+        <Translation AttributeName="Text" Text="Tunnel 5"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PS-41">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PS-41">
+        <Translation AttributeName="Text" Text="Tunnel 6"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PS-42">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PS-42">
+        <Translation AttributeName="Text" Text="Tunnel 7"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PS-43">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PS-43">
+        <Translation AttributeName="Text" Text="Tunnel 8"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PS-44">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PS-44">
+        <Translation AttributeName="Text" Text="Tunnel 9"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PS-45">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PS-45">
+        <Translation AttributeName="Text" Text="Tunnel 10"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PS-46">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PS-46">
+        <Translation AttributeName="Text" Text="Tunnel 11"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PS-47">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PS-47">
+        <Translation AttributeName="Text" Text="Tunnel 12"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PS-48">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PS-48">
+        <Translation AttributeName="Text" Text="Tunnel 13"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PS-49">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PS-49">
+        <Translation AttributeName="Text" Text="Tunnel 14"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PS-50">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PS-50">
+        <Translation AttributeName="Text" Text="Tunnel 15"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PS-51">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PS-51">
+        <Translation AttributeName="Text" Text="Tunnel 16"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PT-Bool_EN-0">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PT-Bool_EN-0">
+        <Translation AttributeName="Text" Text="Disabled"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PT-Bool_EN-1">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PT-Bool_EN-1">
+        <Translation AttributeName="Text" Text="Enabled"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PT-BroadcastLock_EN-0">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PT-BroadcastLock_EN-0">
+        <Translation AttributeName="Text" Text="Forward"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PT-BroadcastLock_EN-1">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PT-BroadcastLock_EN-1">
+        <Translation AttributeName="Text" Text="Block"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PT-GrpAcknowledge_EN-0">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PT-GrpAcknowledge_EN-0">
+        <Translation AttributeName="Text" Text="Always"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PT-GrpAcknowledge_EN-1">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PT-GrpAcknowledge_EN-1">
+        <Translation AttributeName="Text" Text="Only when forwarding"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PT-PhysAcknowledge_EN-1">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PT-PhysAcknowledge_EN-1">
+        <Translation AttributeName="Text" Text="Only when forwarding"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PT-PhysAcknowledge_EN-2">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PT-PhysAcknowledge_EN-2">
+        <Translation AttributeName="Text" Text="Always"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PT-PhysAcknowledge_EN-3">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PT-PhysAcknowledge_EN-3">
+        <Translation AttributeName="Text" Text="Always reject (NACK)"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PT-RoutingWithFilter_EN-1">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PT-RoutingWithFilter_EN-1">
+        <Translation AttributeName="Text" Text="Forward"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PT-RoutingWithFilter_EN-2">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PT-RoutingWithFilter_EN-2">
+        <Translation AttributeName="Text" Text="Block"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PT-RoutingWithFilter_EN-3">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PT-RoutingWithFilter_EN-3">
+        <Translation AttributeName="Text" Text="Filter"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PT-TunnelResOpt_EN-1">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PT-TunnelResOpt_EN-1">
+        <Translation AttributeName="Text" Text="Reject tunnel connection"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PT-TunnelResOpt_EN-2">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PT-TunnelResOpt_EN-2">
+        <Translation AttributeName="Text" Text="Disconnect existing tunnel connection"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_A-A11E-52-6F1C_PT-TunnelResOpt_EN-3">
+      <TranslationElement RefId="M-00FA_A-A11E-52-6F1C_PT-TunnelResOpt_EN-3">
+        <Translation AttributeName="Text" Text="Use another available tunnel"/>
+      </TranslationElement>
+    </TranslationUnit>
     <TranslationUnit RefId="M-00FA_H-1-1">
       <TranslationElement RefId="M-00FA_H-1-1">
-        <Translation AttributeName="Name" Text="OpenKNX IP Router" />
+        <Translation AttributeName="Name" Text="OpenKNX IP Router (Beta)"/>
+      </TranslationElement>
+    </TranslationUnit>
+    <TranslationUnit RefId="M-00FA_H-1-1_P-OpenKnxIPRouter">
+      <TranslationElement RefId="M-00FA_H-1-1_P-OpenKnxIPRouter">
+        <Translation AttributeName="Text" Text="OpenKNX: IP Router (Beta)"/>
       </TranslationElement>
     </TranslationUnit>
   </Language>
