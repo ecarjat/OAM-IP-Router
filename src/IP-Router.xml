@@ -33,6 +33,5 @@
   <op:define prefix="ROUTE" NumChannels="%Tunnelcount%" ModuleType="99" share="IP-Router.share.xml" template="IP-Router.templ.xml" />
 
   <generate base="TemplateRouter.xml"/>
-  <op:include href="IP-Router.languages.en.xml" xpath="//Languages" />
 
 </KNX>

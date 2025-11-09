@@ -109,6 +109,7 @@
         </Hardware>
       </Hardware>
       <Languages/>
+      <op:include href="IP-Router.languages.en.xml" xpath="//Languages" />
     </Manufacturer>
   </ManufacturerData>
 </KNX>
