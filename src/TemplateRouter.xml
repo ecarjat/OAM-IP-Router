@@ -108,6 +108,178 @@
           </Hardware2Programs>
         </Hardware>
       </Hardware>
+      <Languages>
+        <Language Identifier="en-US">
+          <TranslationUnit RefId="M-00FA_CS-OpenKNX">
+            <TranslationElement RefId="M-00FA_CS-OpenKNX">
+              <Translation AttributeName="Name" Text="OpenKNX" />
+            </TranslationElement>
+            <TranslationElement RefId="%CatalogItemId%">
+              <Translation AttributeName="Name" Text="OpenKNX: %CatalogName%%BuildSuffixText%" />
+            </TranslationElement>
+          </TranslationUnit>
+          <TranslationUnit RefId="%HardwareId%">
+            <TranslationElement RefId="%HardwareId%">
+              <Translation AttributeName="Name" Text="OpenKNX-%HardwareName%%BuildSuffix%" />
+            </TranslationElement>
+          </TranslationUnit>
+          <TranslationUnit RefId="%ProductId%">
+            <TranslationElement RefId="%ProductId%">
+              <Translation AttributeName="Text" Text="OpenKNX: %ProductName%%BuildSuffixText%" />
+            </TranslationElement>
+          </TranslationUnit>
+          <TranslationUnit RefId="%AID%">
+            <TranslationElement RefId="%AID%">
+              <Translation AttributeName="Name" Text="%ApplicationName%%BuildSuffix%" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_CH-%PREFIX%-Routing">
+              <Translation AttributeName="Name" Text="IP Router" />
+              <Translation AttributeName="Text" Text="IP Router" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PB-RoutingKnxIp">
+              <Translation AttributeName="Text" Text="Routing KNX -&gt; IP" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PS-RoutingKnxIpHeadline">
+              <Translation AttributeName="Text" Text="Settings for routing telegrams from TP to IP" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PS-RoutingKnxIpWarning">
+              <Translation AttributeName="Text" Text="Warning: When &quot;always reject (NACK)&quot; is selected, programming is only possible via IP" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PB-RoutingIpKnx">
+              <Translation AttributeName="Text" Text="Routing IP -&gt; KNX" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PS-RoutingIpKnxHeadline">
+              <Translation AttributeName="Text" Text="Settings for routing telegrams from IP to TP" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PB-Tunnel">
+              <Translation AttributeName="Text" Text="Tunnel connections" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PS-TunnelHeadline">
+              <Translation AttributeName="Text" Text="Settings for reserved tunnel connections" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PS-TunnelInfo">
+              <Translation AttributeName="Text" Text="The physical addresses (PA) of the tunnel connections are configured via the topology view in ETS" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PS-TunnelAssignment">
+              <Translation AttributeName="Text" Text="Assignment" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PS-TunnelIp">
+              <Translation AttributeName="Text" Text="IP address" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PS-TunnelBehavior">
+              <Translation AttributeName="Text" Text="Behavior when tunnel is occupied" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PB-TunnelGrid">
+              <Translation AttributeName="Name" Text="Tunnel overview" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PT-Bool_EN-0">
+              <Translation AttributeName="Text" Text="Disabled" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PT-Bool_EN-1">
+              <Translation AttributeName="Text" Text="Enabled" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PT-RoutingWithFilter_EN-2">
+              <Translation AttributeName="Text" Text="Block" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PT-RoutingWithFilter_EN-1">
+              <Translation AttributeName="Text" Text="Forward" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PT-RoutingWithFilter_EN-3">
+              <Translation AttributeName="Text" Text="Filter" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PT-GrpAcknowledge_EN-0">
+              <Translation AttributeName="Text" Text="Always" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PT-GrpAcknowledge_EN-1">
+              <Translation AttributeName="Text" Text="Only when forwarding" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PT-BroadcastLock_EN-1">
+              <Translation AttributeName="Text" Text="Block" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PT-BroadcastLock_EN-0">
+              <Translation AttributeName="Text" Text="Forward" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PT-PhysAcknowledge_EN-1">
+              <Translation AttributeName="Text" Text="Only when forwarding" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PT-PhysAcknowledge_EN-2">
+              <Translation AttributeName="Text" Text="Always" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PT-PhysAcknowledge_EN-3">
+              <Translation AttributeName="Text" Text="Always reject (NACK)" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PT-TunnelResOpt_EN-1">
+              <Translation AttributeName="Text" Text="Reject tunnel connection" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PT-TunnelResOpt_EN-2">
+              <Translation AttributeName="Text" Text="Disconnect existing tunnel connection" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PT-TunnelResOpt_EN-3">
+              <Translation AttributeName="Text" Text="Use another available tunnel" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_P-%TT%00002">
+              <Translation AttributeName="Text" Text="Acknowledgement (ACK) of physically addressed telegrams" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_P-%TT%00003">
+              <Translation AttributeName="Text" Text="Acknowledgement (ACK) of group telegrams" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_P-%TT%00004">
+              <Translation AttributeName="Text" Text="Broadcast telegrams" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_P-%TT%00005">
+              <Translation AttributeName="Text" Text="Physically addressed telegrams" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_P-%TT%00006">
+              <Translation AttributeName="Text" Text="Group telegrams (main group 14 - 31)" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_P-%TT%00007">
+              <Translation AttributeName="Text" Text="Group telegrams (main group 0 - 13)" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_P-%TT%00008">
+              <Translation AttributeName="Text" Text="Repeat broadcast telegrams" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_P-%TT%00009">
+              <Translation AttributeName="Text" Text="Broadcast telegrams" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_P-%TT%00010">
+              <Translation AttributeName="Text" Text="Repeat physically addressed telegrams" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_P-%TT%00011">
+              <Translation AttributeName="Text" Text="Physically addressed telegrams" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_P-%TT%00012">
+              <Translation AttributeName="Text" Text="Repeat group telegrams" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_P-%TT%00013">
+              <Translation AttributeName="Text" Text="Group telegrams (main group 14 - 31)" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_P-%TT%00014">
+              <Translation AttributeName="Text" Text="Group telegrams (main group 0 - 13)" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_P-%TT%%CC%001">
+              <Translation AttributeName="Text" Text="Reserve tunnel %C%" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_P-%TT%%CC%002">
+              <Translation AttributeName="Text" Text="IP address for tunnel %C%" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_P-%TT%%CC%003">
+              <Translation AttributeName="Text" Text="Behavior when tunnel is occupied" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_PS-TunnelRowHeader">
+              <Translation AttributeName="Text" Text="Tunnel %C%" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_BI-%C%">
+              <Translation AttributeName="Text" Text="Tunnel %C%" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_M-1">
+              <Translation AttributeName="Text" Text="Manufacturer ID incompatible!" />
+            </TranslationElement>
+            <TranslationElement RefId="%AID%_M-2">
+              <Translation AttributeName="Text" Text="Hardware type or firmware version incompatible!" />
+            </TranslationElement>
+          </TranslationUnit>
+        </Language>
+      </Languages>
     </Manufacturer>
   </ManufacturerData>
 </KNX>
