@@ -52,35 +52,6 @@
           </Dynamic>
         </ApplicationProgram>
       </ApplicationPrograms>
-      <Languages>
-        <Language Identifier="en-US">
-          <TranslationUnit RefId="%AID%_P-%TT%%CC%001">
-            <TranslationElement RefId="%AID%_P-%TT%%CC%001">
-              <Translation AttributeName="Text" Text="Reserve tunnel %C%" />
-            </TranslationElement>
-          </TranslationUnit>
-          <TranslationUnit RefId="%AID%_P-%TT%%CC%002">
-            <TranslationElement RefId="%AID%_P-%TT%%CC%002">
-              <Translation AttributeName="Text" Text="IP address for tunnel %C%" />
-            </TranslationElement>
-          </TranslationUnit>
-          <TranslationUnit RefId="%AID%_P-%TT%%CC%003">
-            <TranslationElement RefId="%AID%_P-%TT%%CC%003">
-              <Translation AttributeName="Text" Text="Behavior when tunnel is occupied" />
-            </TranslationElement>
-          </TranslationUnit>
-          <TranslationUnit RefId="%AID%_PS-TunnelRowHeader">
-            <TranslationElement RefId="%AID%_PS-TunnelRowHeader">
-              <Translation AttributeName="Text" Text="Tunnel %C%" />
-            </TranslationElement>
-          </TranslationUnit>
-          <TranslationUnit RefId="%AID%_BI-%C%">
-            <TranslationElement RefId="%AID%_BI-%C%">
-              <Translation AttributeName="Text" Text="Tunnel %C%" />
-            </TranslationElement>
-          </TranslationUnit>
-        </Language>
-      </Languages>
     </Manufacturer>
   </ManufacturerData>
 </KNX>

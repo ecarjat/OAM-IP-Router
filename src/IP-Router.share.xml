@@ -166,7 +166,7 @@
           <FileInfo TimeInfo="%DATETIME%" />
         </Baggage>
       </Baggages>
-      <Languages>
+      <Languages/>
         <Language Identifier="en-US">
           <TranslationUnit RefId="%AID%_CH-%PREFIX%-Routing">
             <TranslationElement RefId="%AID%_CH-%PREFIX%-Routing">
@@ -380,7 +380,7 @@
             </TranslationElement>
           </TranslationUnit>
         </Language>
-      </Languages>
+      
     </Manufacturer>
   </ManufacturerData>
 </KNX>
