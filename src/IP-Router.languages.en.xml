@@ -1,0 +1,9 @@
+<Languages xmlns="http://knx.org/xml/project/20">
+  <Language Identifier="en-US">
+    <TranslationUnit RefId="M-00FA_H-1-1">
+      <TranslationElement RefId="M-00FA_H-1-1">
+        <Translation AttributeName="Name" Text="OpenKNX IP Router" />
+      </TranslationElement>
+    </TranslationUnit>
+  </Language>
+</Languages>
