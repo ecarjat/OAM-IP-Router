@@ -108,35 +108,7 @@
           </Hardware2Programs>
         </Hardware>
       </Hardware>
-      <Languages>
-        <Language Identifier="en-US">
-          <TranslationUnit RefId="M-00FA_CS-OpenKNX">
-            <TranslationElement RefId="M-00FA_CS-OpenKNX">
-              <Translation AttributeName="Name" Text="OpenKNX" />
-            </TranslationElement>
-          </TranslationUnit>
-          <TranslationUnit RefId="%CatalogItemId%">
-            <TranslationElement RefId="%CatalogItemId%">
-              <Translation AttributeName="Name" Text="OpenKNX: %CatalogName%%BuildSuffixText%" />
-            </TranslationElement>
-          </TranslationUnit>
-          <TranslationUnit RefId="%HardwareId%">
-            <TranslationElement RefId="%HardwareId%">
-              <Translation AttributeName="Name" Text="OpenKNX-%HardwareName%%BuildSuffix%" />
-            </TranslationElement>
-          </TranslationUnit>
-          <TranslationUnit RefId="%ProductId%">
-            <TranslationElement RefId="%ProductId%">
-              <Translation AttributeName="Text" Text="OpenKNX: %ProductName%%BuildSuffixText%" />
-            </TranslationElement>
-          </TranslationUnit>
-          <TranslationUnit RefId="%AID%">
-            <TranslationElement RefId="%AID%">
-              <Translation AttributeName="Name" Text="%ApplicationName%%BuildSuffix%" />
-            </TranslationElement>
-          </TranslationUnit>
-        </Language>
-      </Languages>
+      <Languages/>
     </Manufacturer>
   </ManufacturerData>
 </KNX>
