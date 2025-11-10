@@ -55,8 +55,8 @@
               </LoadProcedure>
             </LoadProcedures>
             <Messages>
-              <Message Id="%AID%_M-1" Name="VersionMismatch" Text="Herstellerkennung inkompatibel!" />
-              <Message Id="%AID%_M-2" Name="VersionMismatch" Text="Hardware-Type oder Firmware-Version inkompatibel!" />
+              <Message Id="%AID%_M-1" Name="VersionMismatch" Text="Manufacturer identifier incompatible!" />
+              <Message Id="%AID%_M-2" Name="VersionMismatch" Text="Hardware type or firmware version incompatible!" />
               <op:include href="../lib/OGM-Common/src/Common.share.xml" xpath="//ApplicationProgram/Static/Messages/*" prefix="BASE" />
               <op:includetemplate href="%share%" xpath="//ApplicationProgram/Static/Messages/*" prefix="%prefix%" />
             </Messages>

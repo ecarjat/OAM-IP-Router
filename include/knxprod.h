@@ -18,7 +18,7 @@
 #define MAIN_ParameterSize 182
 #define MAIN_MaxKoNumber 0
 #define MAIN_OrderNumber "OpenKnxIPRouter"
-#define BASE_ModuleVersion 20
+#define BASE_ModuleVersion 21
 #define NET_ModuleVersion 5
 // Parameter with single occurrence
 

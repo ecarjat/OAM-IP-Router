@@ -139,7 +139,6 @@
 
 #define OKNXHW_REG1_CONTROLLERESP_V00_02
 #define OKNXHW_REG1_FRONT_RGB
-#include "HardwareConfig/OpenKNX/REG1.h"
 
 //#define PROG_LED_COLOR 31,0,0
 //#define INFO1_LED_COLOR 0,31,0
@@ -148,4 +147,4 @@
 
 #endif
 
-#include "HardwareConfig/OpenKNX/REG1.h"
+#include "HardwareConfig.h"
